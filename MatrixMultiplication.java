@@ -41,7 +41,7 @@ public class MatrixMultiplication {
                 newMatrix[i][j] = 0;
                 for(int k = 0; k < col1;k++)
                 {
-                    newMatrix[i][j] += matrix1[i][k]*matrix2[k][j];
+                    newMatrix[i][j] += matrix1[i][k]+matrix2[k][j];
                 }
             }
         }
