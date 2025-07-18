@@ -45,9 +45,9 @@ public class MatrixMultiplication {
                 }
             }
         }
-        for(int x[] : newMatrix)
+        for(int row[] : newMatrix)
         {
-            for(int y : x)
+            for(int y : row)
             {
                 System.out.print(y+" ");
             }
